@@ -1,0 +1,286 @@
+.mission-select-item-btn {
+  width: fit-content;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 67px;
+
+  &.active {
+    border-radius: 10px;
+    background: rgba(21, 46, 92, 1) linear-gradient(180deg, rgba(0, 150, 255, 1) 0%, rgba(0, 150, 255, 0) 100%);
+    z-index: 100;
+  }
+  &:hover {
+    border-radius: 10px;
+    background: rgba(21, 46, 92, 1) linear-gradient(180deg, rgba(0, 150, 255, 1) 0%, rgba(0, 150, 255, 0) 100%);
+
+    & > div:first-child {
+      border-color: white;
+    }
+
+    .mission-key {
+      border-color: white;
+    }
+  }
+  & > div:first-child {
+    position: relative;
+    background: rgba(21, 46, 92, 0.8) linear-gradient(180deg, rgba(0, 150, 255, 0.48) 0%, rgba(0, 150, 255, 0) 100%);
+    border: 2px solid #2d5ea2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    min-width: 150px;
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    & > div {
+      padding: 6px 10px;
+    }
+  }
+  h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #bd8926;
+    white-space: nowrap;
+  }
+  .mission-key {
+    border-left: 2px solid #2d5ea2;
+    padding: 6px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-size: 14px;
+    }
+    img {
+      width: 35px;
+    }
+  }
+}
+
+.map-details {
+  width: fit-content;
+  border: 2px solid white;
+  border-radius: 10px;
+  z-index: 30;
+  .tier-btns {
+    button {
+      max-width: 100%;
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: white;
+      line-height: 36px;
+      &:first-child {
+        border-top-left-radius: 8px;
+      }
+      &:last-child {
+        border-top-right-radius: 8px;
+      }
+      &:hover {
+        background-color: #0096ff;
+      }
+      &.active {
+        background-color: #0096ff;
+      }
+    }
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid white;
+    background: #123a74;
+    overflow: hidden;
+    font-size: 16px !important;
+    button {
+      white-space: nowrap;
+    }
+  }
+  .content {
+    background: #152e5c;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    & > div {
+      &:first-child {
+        border-right: 2px solid #193a6c;
+        h3 {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          color: #ffffff;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        & > div {
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 100px;
+          height: 25px;
+          text-align: center;
+          font-size: 14px;
+          line-height: 25px;
+          margin: 10px 0;
+          color: white;
+          &.cosmic {
+            background-image: url(../../assets/images/cosmic-bg.png);
+            padding-left: 10px;
+            position: relative;
+
+            img {
+              position: absolute;
+              width: 30px;
+              left: -3px;
+              top: -3px;
+            }
+          }
+          &.gold {
+            background-image: url(../../assets/images/gold-bg.png);
+            padding-left: 10px;
+            position: relative;
+
+            img {
+              position: absolute;
+              width: 30px;
+              left: -3px;
+              top: -3px;
+            }
+          }
+          &.exp {
+            background-image: url(../../assets/images/exp-bg.png);
+            padding-left: 10px;
+          }
+          &.ascension {
+            background-image: url(../../assets/images/ascence-bg.png);
+            width: 120px;
+            height: 35px;
+            margin: 0;
+            margin-left: -8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          &.duration {
+            background-image: url(../../assets/images/crusade_timer.png);
+            background-size: 100% 100%;
+            width: 100px;
+            height: 36px;
+            line-height: 36px;
+            text-align: right;
+            padding-right: 12px;
+            margin: 0;
+          }
+          &.stamina {
+            background-image: url(../../assets/images/character_stamina.png);
+            width: 111px;
+            height: 45px;
+            line-height: 49px;
+            text-align: center;
+            padding-left: 20px;
+            margin: 0;
+          }
+          &.key {
+            background-image: url(../../assets/images/keywrapper.png);
+            width: 111px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 0;
+            margin-left: 5px;
+            position: relative;
+
+            .key-image {
+              position: absolute;
+              left: 0;
+              background-size: 100%;
+              background-position: center;
+              top: -1px;
+              width: 32px;
+              border-radius: 3px;
+              border: 1px solid white;
+              height: 32px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      &:last-child {
+        padding-left: 10px;
+        .title {
+          display: flex;
+          align-items: center;
+          img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+            margin-right: 10px;
+          }
+          h4 {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            white-space: nowrap;
+            margin: 0;
+            color: #ffffff;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+        }
+        .items {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+.map-details-popup {
+  & > .leaflet-popup-content-wrapper {
+    background: transparent;
+    .leaflet-popup-content {
+      background: transparent;
+      margin: 0;
+    }
+  }
+
+  .leaflet-popup-tip-container {
+    display: none;
+  }
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.help-tooltip {
+  width: fit-content;
+  background: #1c3970;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  max-width: 220px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  text-align: justify;
+  padding: 20px;
+  z-index: 1;
+}

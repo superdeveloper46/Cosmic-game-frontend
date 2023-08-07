@@ -1,0 +1,60 @@
+.audio {
+  &-container {
+    color: white;
+    padding: 100px 30px;
+
+    h2 {
+      font-family: "roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 45px;
+      display: flex;
+      margin-bottom: 0;
+      align-items: center;
+      color: #ffffff;
+    }
+  }
+
+  &-control-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid #3980DA;
+
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+
+  &-slider {
+    display: flex;
+    align-items: center;
+
+    .music {
+      width: 25px;
+      margin-right: 20px;
+    }
+
+    .horizontal-slider {
+      width: 250px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  &-dropdown {
+    background: linear-gradient(180deg, rgba(0, 150, 255, 0.48) 0%, rgba(0, 150, 255, 0) 100%);
+    border: 2px solid #2D5EA2;
+    border-radius: 10px;
+    padding: 5px 20px;
+
+    img {
+      width: 25px;
+      margin-left: 10px;
+    }
+  }
+}

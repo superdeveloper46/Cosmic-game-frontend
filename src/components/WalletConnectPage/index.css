@@ -1,0 +1,39 @@
+.login-background {
+  background-image: url('/public/images/back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-logo {
+  background-image: url('/public/images/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 500px;
+  height: 300px;
+}
+
+.connect-wallet-button {
+  background: linear-gradient(180deg,rgba(0,0,0,.2),transparent 95.31%),#1b2d48;
+  cursor: pointer;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 7px 4px rgb(0 0 0 / 25%);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  transition: all .3s ease;
+  font-family: ocean-drift!important;
+}
+
+.connect-wallet-button:hover {
+  opacity: 0.8;
+}

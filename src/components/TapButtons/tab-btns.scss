@@ -1,0 +1,37 @@
+.tab-btns {
+  background-color: #123061;
+  background-image: url("../../assets/images/tab_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 88px;
+  border-bottom: 3px solid #193A6C;
+  padding-left: 180px;
+  & > button {
+    height: 100%;
+    width: 80px;
+    outline: none;
+    border: none;
+    background: transparent;
+    & > div {
+      border-radius: 40px;
+      background: rgba($color: #007EFF, $alpha: 0.15);
+      width: 70px;
+      height: 70px;
+      img {
+        width: 100%;
+      }
+    }
+    &.active {
+      box-shadow: 0px 3px 0px #00B1FB;
+      & > div {
+        background-color: rgba($color: #00B1FB, $alpha: 0.35);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .tab-btns {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,59 @@
+.top-nav {
+  background-color: #16305f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.3), 0 0px 20px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0px;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.top-nav-button {
+  border: 0 !important;
+  background: none !important;
+  width: 80px;
+  height: 80px;
+  margin-top: 0.5rem;
+}
+
+.top-nav.background-invisible {
+  background-image: none;
+  background-color: #16305f00;
+  box-shadow: none;
+}
+
+.name {
+  font-family: ocean-drift !important;
+  font-size: 48px;
+  text-align: center;
+}
+
+.btn-back {
+  background: transparent !important;
+  outline: none;
+  border: none;
+}
+
+.btn-back img {
+  width: 30px;
+}
+
+.back-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: #ffffff;
+  text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-back:hover {
+  background: transparent;
+}

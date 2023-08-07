@@ -1,0 +1,94 @@
+.item-description-wrapper {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  z-index: 9999;
+  background: #eff8ff;
+  border-radius: 5px;
+  overflow: hidden;
+  button {
+    top: 13px;
+  }
+  .item-details-card {
+    max-width: 330px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    margin: 0 !important;
+    background: #eff8ff;
+  }
+  .side-bar {
+    position: relative;
+    display: flex;
+    max-width: 250px;
+    min-width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      height: 97%;
+      width: 4px;
+      border-radius: 4px;
+      background: #193A6C;
+    }
+    h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    h4 {
+      text-align: center;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+      color: #2d5ea2;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    & > div {
+      width: 100%;
+      .equip-apes {
+        max-height: calc(100vh - 200px);
+        width: 100%;
+        // overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 100px;
+          border: 2px solid white;
+          margin: 20px auto;
+          margin-top: 0;
+        }
+      }
+    }
+    .detail-btns {
+      width: 100px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.unequip-btn {
+  background-image: url("../../assets/images/red_btn_bg.png") !important;
+}

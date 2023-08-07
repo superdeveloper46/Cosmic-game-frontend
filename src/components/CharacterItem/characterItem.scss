@@ -1,0 +1,55 @@
+.character-image-wrapper {
+  width: 95px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  & > div {
+    &:first-child {
+      width: 100%;
+      position: relative;
+      .ape-img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .rare {
+        position: absolute;
+        width: 40px;
+        bottom: 0;
+        left: 0;
+      }
+      .power {
+        position: absolute;
+        width: 20px;
+        top: 0;
+        right: 0;
+      }
+      .favorite {
+        position: absolute;
+        width: 20px;
+        left: -10px;
+        top: 25%;
+      }
+      .crown {
+        position: absolute;
+        width: 20px;
+        left: -10px;
+        top: 50%;
+      }
+    }
+    &:last-child {
+      display: flex;
+      justify-content: center;
+      background: rgba(0, 177, 251, 0.48);
+      border-radius: 0px 0px 10px 10px;
+      img {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+      }
+      font-size: 18px;
+    }
+  }
+}

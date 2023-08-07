@@ -1,0 +1,25 @@
+.forging-material {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #3980DA;
+  background: rgba(91, 108, 153, 0.1);
+  min-height: 120px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  & > div {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.maxed-level-message {
+  position: absolute;
+  top: 150px;
+  background-color: #621D0E7A;
+  border-top: 1px solid #FFBB7C;
+  border-bottom: 1px solid #FFBB7C;
+  z-index: 10;
+}

@@ -1,0 +1,26 @@
+.character-sidebar-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  background: linear-gradient(0deg, #16305f 0%, #0b1a39 100%);
+  background: url("../../../public/images/Panel (with Top right button).png");
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  transition: all ease 0.3s;
+  &.collapsed {
+    background-size: cover;
+  }
+  .character-row-container {
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .power-filter-pagination {
+    min-width: 280px;
+  }
+}

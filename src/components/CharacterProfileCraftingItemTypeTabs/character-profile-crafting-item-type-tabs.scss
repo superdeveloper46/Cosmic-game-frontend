@@ -1,0 +1,12 @@
+.characters-profile-crafting-item-type-tabs {
+  
+  .craft-item-type-tab {
+    color: white;
+    background: #103564;
+    font-size: 14px;
+
+    &.active {
+      background: #0095ff;
+    }
+  }
+}

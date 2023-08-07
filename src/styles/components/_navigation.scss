@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1190px) {
+  .navbar-small-screen {
+    place-content: space-between;
+    height: 160px;
+  }
+
+  .navbar-title-small-screen {
+    width: 100% !important;
+    display: block !important;
+    order: -1;
+    height: 20%;
+  }
+}
+

@@ -1,0 +1,18 @@
+.claim-button {
+  color: #33B04E;
+  border-width: 0px;
+  background-color: #00000000!important;
+  background-image: url('/public/images/claim-button-active.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 1.5rem;
+}
+
+.claim-button:hover,.claim-button:focus {
+  color: #33B04E;
+}
+
+.claim-button.inactive {
+  color: #365db3;
+}

@@ -1,0 +1,21 @@
+.characters-profile-crafting-item-tree-wrapper {
+  .characters-profile-crafting-item-tree-accordian {
+    border: 1px solid #2D5EA2;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0, 150, 255, 0.48) 0%, rgba(0, 150, 255, 0) 100%);
+    position: relative;
+
+    .accordian-title {
+      font-size: 18px;
+      padding: 0.25rem 0.25rem 0.25rem 1rem;
+    }
+
+    img {
+      position: absolute;
+      width: 24px;
+      height: auto;
+      right: 1rem;
+      top: 0.5rem;
+    }
+  }
+}

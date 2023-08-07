@@ -1,0 +1,17 @@
+.characters-profile-crafting-view-tabs {
+  
+  .craft-view-tab {
+    border-radius: 5px;
+    color: #969595;
+    background: #011326;
+    border: 1px solid #02356A;
+    font-size: 14px;
+    min-width: 120px;
+
+    &.active {
+      border: 1px solid #BD8926;
+      background: #BD892614;
+      color: #BD8926;
+    }
+  }
+}

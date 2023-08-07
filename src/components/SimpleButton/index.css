@@ -1,0 +1,16 @@
+.simple-button {
+  border-width: 0px;
+  border-radius: 0;
+  background-color: #0096ff!important;
+  color: #FFFFFF;
+}
+
+.simple-button.inactive {
+  background-color: #007EFF23!important;
+  color: #406691;
+  cursor: pointer!important;
+}
+
+.simple-button.simple-button.inactive:hover {
+  opacity: 0.8;
+}

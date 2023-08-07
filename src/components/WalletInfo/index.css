@@ -1,0 +1,34 @@
+.wallet-info-container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.wallet-info-container .wallet-info-item {
+  position: relative;
+  min-width: 100px;
+  margin: 5px 10px;
+  background-image: url('/public/images/wallet-info-item-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.wallet-info-item .wallet-info-add-button {
+  background-image: url('/public/images/btn-add-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  background-color: #00000000;
+  border: #00000000;
+  position: absolute;
+  right: 10px;
+}

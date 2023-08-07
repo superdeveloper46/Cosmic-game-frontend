@@ -1,0 +1,11 @@
+.box {
+  border: 1px solid #FFFFFF;
+  background: rgba(91, 108, 153, 0.1);
+  box-sizing: border-box;
+}
+
+.box.inactive {
+  border: 1px solid #3980DA;
+  background: rgba(91, 108, 153, 0.1);
+  box-sizing: border-box;
+}

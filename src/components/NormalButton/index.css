@@ -1,0 +1,28 @@
+.normal-button {
+  border-width: 0px;
+  background-color: transparent !important;
+  background-image: url("/public/images/normal-button-active.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #ffffff;
+}
+
+.normal-button.inactive {
+  background-image: url("/public/images/normal-button-inactive.png");
+  color: #007eff;
+  cursor: pointer !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.normal-button.inactive:hover {
+  opacity: 0.8;
+}
+.normal-button.inactive.disabled {
+  cursor: not-allowed!important;
+  opacity: 0.8;
+}
+.normal-button .normal-button-image {
+  width: 24px;
+  height: 24px;
+}

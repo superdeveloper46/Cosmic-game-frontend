@@ -1,0 +1,24 @@
+.tab-panel {
+  background-color: #132849;
+  height: calc(100vh - 100px);
+  padding-top: 30px;
+  overflow-y: auto;
+  & > div {
+    &:not(:last-child) {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        right: 10px;
+        height: 98%;
+        width: 4px;
+        border-radius: 4px;
+        background: #193A6C;
+      }
+    }
+    height: 100%;
+  }
+
+}

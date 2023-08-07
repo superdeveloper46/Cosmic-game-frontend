@@ -1,0 +1,224 @@
+.preview-wrapper {
+  z-index: 21;
+  margin: 1rem;
+
+  .preview-content {
+    padding: 1rem;
+    background: linear-gradient(0deg, #16305F 0%, #0B1A39 100%);
+    border: 1px solid #00B1FB;
+    transition: all ease 0.3s;
+    min-width: fit-content;
+    max-width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .preview-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5rem;
+    }
+
+    .preview-main-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0.5rem;
+    }
+
+    .preview-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5rem;
+    }
+
+    .preview-rewarding-missions {
+      padding: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: calc(100vh - 630px);
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      .preview-rewarding-mission-row {
+        border: 1px solid #00B1FB;
+        margin: 0.2rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .preview-rewarding-mission-image {
+          width: 120px;
+        }
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  height: calc(100vh - 100px);
+}
+
+.w-12 {
+  width: 12%;
+}
+
+.video-player-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 49;
+  color: white;
+  margin: auto !important;
+  top: 50% !important;
+  left: 50vw !important;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 1px solid #0096FF;
+  background-size: cover;
+  
+  .video-player-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .video-player-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0.5rem;
+  }
+  
+  .video-player-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+}
+
+.message-wrapper {
+  z-index: 50;
+  margin: 1rem;
+  width: 550px;
+  height: 320px;
+  color: white;
+  display: flex;
+  margin: auto !important;
+  top: 50% !important;
+  left: 50vw !important;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border: 1px solid #0096FF;
+  overflow-y: auto;
+
+  .error-message-wrapper {
+    flex: 1;
+    background-color: #361616e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: max-content;
+    
+    .error-message-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+    }
+    
+    .error-message-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+    }
+    
+    .error-message-actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+    }
+  }
+
+  .confirm-message-wrapper {
+    flex: 1;
+    background-color: #161c3afa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: max-content;
+    
+    .confirm-message-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+    }
+    
+    .confirm-message-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+    }
+    
+    .confirm-message-actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+    }
+  }
+}
+
+.hover-opacity-8 {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.hover-cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.equip-button {
+  min-width: 140px;
+}
+
+.dialog-header {
+  background-color: #182C54;
+}
+
+.direction-button {
+  border: 0 !important;
+  font-size: 24px !important;
+  background: none !important;
+  color: rgb(37, 80, 145) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  right: 0.5rem !important;
+}
+
+.reward-item-slot {
+  border: 1px solid #00A2FF;
+  background: linear-gradient(#046cc3, #04294c);
+  box-shadow: 0px 0px 10px 2px #00a2ffb3;
+  aspect-ratio: 1;
+}

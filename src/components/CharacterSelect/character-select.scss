@@ -1,0 +1,9 @@
+.character-select {
+  width: 32%;
+  padding: 10px 30px 10px 10px;
+  color: white;
+  .character-items {
+    height: calc(100% - 138px);
+    overflow-y: auto;
+  }
+}

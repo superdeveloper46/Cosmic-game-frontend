@@ -1,0 +1,77 @@
+.forging-material {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #3980da;
+  background: rgba(91, 108, 153, 0.1);
+  min-height: 120px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  & > div {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.repair-description {
+  max-width: 240px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.repair-currency-required {
+  background: transparent !important;
+  border: none !important;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.vertical-slider {
+  height: 250px;
+  width: 18px;
+  background: #011326;
+  border: 2px solid #02356a;
+  margin: auto;
+  box-shadow: 0 0 3px #011326;
+}
+
+.horizontal-slider {
+  width: 100%;
+  height: 18px;
+  background: #011326;
+  border: 2px solid #02356a;
+  margin: auto;
+  box-shadow: 0 0 3px #011326;
+}
+
+.repair-track {
+  width: 100%;
+}
+
+.repair-track-0 {
+  background: linear-gradient(90deg, #008AFF 0%, #00C6FF 100%);
+}
+
+.repair-track-1 {
+  background: linear-gradient(90deg, #FFFFFF 0%, #D1F3FD 100%);
+}
+
+.repair-track-2 {
+  background: linear-gradient(90deg, #BD8926 0%, #BC964D 100%);
+}
+
+.repair-thumb {
+  background: linear-gradient(0deg, #00C6FF 0%, #00C6FF 0.3%, #0096FF 100%);
+  width: 25px;
+  height: 15px;
+  right: 50%;
+  transform: translateX(50%);
+  cursor: pointer;
+}
+
+.repair-thumb-0, .repair-thumb-1 {
+  display: none;
+}

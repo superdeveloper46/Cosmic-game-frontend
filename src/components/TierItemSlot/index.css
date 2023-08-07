@@ -1,0 +1,19 @@
+.tier-item-slot {
+  border: 1px solid #2D5EA2;
+  border-radius: 5px;
+  background: #123061;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.tier-item-slot .tier-item-slot-overlay {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  right: -10px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

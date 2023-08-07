@@ -1,0 +1,8 @@
+.repair-materials-container {
+
+  .repair-materials {
+    max-height: calc(100vh - 360px);
+    height: calc(100vh - 360px);
+    overflow-y: auto;
+  }
+}

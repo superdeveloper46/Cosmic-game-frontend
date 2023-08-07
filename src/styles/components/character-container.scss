@@ -1,0 +1,84 @@
+.character-select-item {
+  display: flex;
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  .timer {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #068dcc;
+  }
+  .difficulty {
+    h6 {
+      font-size: 12px;
+      color: #df2e2e;
+      white-space: nowrap;
+      margin-bottom: 0;
+    }
+
+    &.bonus-easy {
+      h6 {
+        color: #07da42;
+      }
+    }
+  }
+}
+.character-item-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+
+.stamina-image {
+  background: url("../../../public/images/character_stamina.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  padding-right: 8px;
+}
+
+.timer-image {
+  background: url("../../../public/images/crusade_timer.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  padding-right: 8px;
+}
+
+.mission-complete {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #39da53;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #39da53;
+  white-space: nowrap;
+  padding: 5px 10px;
+  margin-left: 10px;
+}

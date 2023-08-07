@@ -1,0 +1,130 @@
+.new-layout-resource-folder {
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  width: 80px;
+  height: fit-content;
+
+  &:hover,
+  &.active {
+    .resource-icon {
+      border-color: #bd8926;
+    }
+
+    .resource-number {
+      border-color: #bd8926;
+    }
+  }
+
+  &.white-border {
+    .resource-icon, .resource-number {
+      border-color: white;
+    }
+  }
+
+  &.active {    
+    .selected {
+      display: block!important;
+    }
+  }
+
+  .resource-icon {
+    border: 1px solid #2d5ea2;
+    border-radius: 5px 5px 0 0;
+    background: rgba(190, 162, 162, 0.65);
+    position: relative;
+
+    .selected {
+      display: none;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      border: 1px solid #2d5ea2;
+      border-radius: 5px 5px 0px 0px;
+
+      & > div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        p {
+          position: absolute;
+          width: 100%;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(98, 29, 14, 0.36);
+          border-top: 2px solid #ffbb7c;
+          border-bottom: 2px solid #ffbb7c;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 25px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #ffffff;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+  }  
+
+  .resource-number {
+    border: 1px solid #2d5ea2;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 177, 251, 0.48);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .resource-item-tier-overlay {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    right: -10px;
+    top: -10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .resource-detail {
+    width: 20px;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+  }
+
+  .resource-owner {
+    width: 30px;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid white;
+    bottom: -5px;
+    left: -5px;
+  }
+
+  .check-image {
+    width: 40px;
+    position: absolute;
+    border-radius: 40px;
+    border: 0;
+    top: 20px;
+    left: 20px;
+  }
+}

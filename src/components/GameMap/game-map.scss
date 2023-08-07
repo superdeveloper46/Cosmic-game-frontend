@@ -1,0 +1,31 @@
+.game-map {
+  min-width: 1920px;
+  min-height: 1190px;
+  background-image: url(../../../public/images/v2/backgrounds/map2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  max-width: unset;
+}
+
+.leaflet-control-attribution {
+  display: none;
+  a {
+    display: none;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.leaflet-popup-close-button {
+  display: none;
+}
+
+.island-map {
+  border-radius: 10px;
+  border: 3px solid #3980da;
+}

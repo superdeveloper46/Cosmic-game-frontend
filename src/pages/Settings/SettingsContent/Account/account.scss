@@ -1,0 +1,120 @@
+.account {
+  &-container {
+    color: white;
+    padding: 100px 30px;
+
+    h2 {
+      font-family: "roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 45px;
+      display: flex;
+      margin-bottom: 0;
+      align-items: center;
+      color: #ffffff;
+    }
+  }
+  &-detail {
+    h3 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 124.69%;
+      margin: 0;
+      letter-spacing: 0.2em;
+      color: #ffffff;
+    }
+
+    &-user {
+      input {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 124.69%;
+        margin: 0;
+        letter-spacing: 0.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &::placeholder {
+          font-family: "Roboto";
+        }
+      }
+
+      .username {
+        min-width: 150px;
+      }
+    }
+  }
+
+  &-address {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 150, 255, 0.48) 0%, rgba(0, 150, 255, 0) 100%);
+    border: 2px solid #2d5ea2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: fit-content;
+
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  &-social {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 45px;
+      margin-right: 10px;
+    }
+
+    input {
+      border: none;
+      outline: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 124.69%;
+      margin: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      width: 150px;
+
+      &::placeholder {
+        font-family: "Roboto";
+      }
+    }
+  }
+
+  &-frames {
+    &-item {
+      background: rgba(91, 108, 153, 0.1);
+      border: 2px solid #3980DA;
+      border-radius: 12px;
+      width: 100px;
+      padding: 5px;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+      }
+
+      &.active {
+        border: 2px solid #f4f4f4;
+      }
+    }
+  }
+}

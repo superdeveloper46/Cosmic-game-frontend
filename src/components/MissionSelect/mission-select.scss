@@ -1,0 +1,131 @@
+.mission-select {
+  width: 42%;
+  padding: 10px 30px 10px 10px;
+  .organizer {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    img {
+      width: 45px;
+    }
+  }
+  .search-items {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background: #011326;
+    border: 2px solid #02356a;
+    outline: none;
+    color: white;
+    transition: all 0.2s;
+    white-space: nowrap;
+    padding: 5px 10px;
+  }
+  .mission-items {
+    height: calc(100% - 125px);
+    overflow-y: auto;
+  }
+}
+.tap-btns {
+  background: rgba($color: #007eff, $alpha: 0.15);
+  button {
+    width: 100%;
+    padding-top: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    height: 100%;
+    color: white;
+    border: none;
+    outline: none;
+    background: transparent;
+    &:hover {
+      background-color: #0096ff;
+    }
+    &.active {
+      background-color: #0096ff;
+    }
+    @media (max-width: 1600px) {
+      font-size: 15px;
+    }
+    @media (max-width: 1460px) {
+      padding-top: 0;
+      font-size: 12px;
+      line-height: 28px;
+    }
+  }
+}
+
+.custom-border-bottom {
+  position: relative;
+  padding-left: 17px;
+  padding-right: 17px;
+  z-index: 0;
+  &.type-2 {
+    &::after {
+      background-image: url("../../assets/images/bottomBorder2.png") !important;
+    }
+  }
+  &.type-long {
+    &::after {
+      background-image: url("../../assets/images/long_bottom_border.png") !important;
+    }
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #193a6c;
+    border-radius: 4px;
+    width: 100%;
+    height: 4px;
+    bottom: -4px;
+    z-index: -1;
+    left: 0;
+    background-size: 100% 100%;
+  }
+}
+
+.custom-active {
+  cursor: pointer;
+  border: 2px solid #3980da;
+  &:hover {
+    border: 2px solid #c88c19 !important;
+    p {
+      font-size: 26px;
+    }
+  }
+  &.active {
+    border: 2px solid #ffffff !important;
+    p {
+      font-size: 26px;
+    }
+  }
+
+  &.focus {
+    border: 2px solid #f4f4f4 !important;
+    p {
+      font-size: 26px;
+    }
+  }
+}
+
+.normal-border {
+  border: 2px solid #3980da;
+}
+
+.character-active {
+  &:hover {
+    outline: 2px solid #c88c19 !important;
+  }
+}
+
+.character-row-active {
+  background-color: rgba($color: #5b6c99, $alpha: 0.1);
+
+  &.focus {
+    background-color: #163a75;
+  }
+}

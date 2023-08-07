@@ -1,0 +1,30 @@
+.new-layout-inventory-page {
+
+  .inventories-container {
+    max-height: calc(100vh - 320px);
+    overflow-y: auto;
+  }
+
+  .subtype-tabs {
+    min-height: 80px;
+
+    @media (max-width: 1460px) {
+      min-height: 60px;
+    }
+  }
+
+  .subtype-tab {
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 80px;
+
+    @media (max-width: 1460px) {
+      min-height: 60px;
+    }
+  }
+
+  .type-tab {
+    min-width: 260px;
+    max-width: 260px;
+  }
+}

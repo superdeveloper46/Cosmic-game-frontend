@@ -1,0 +1,4 @@
+.ape-info-texts-container {
+  flex-direction: column;
+  min-width: 300px;
+}

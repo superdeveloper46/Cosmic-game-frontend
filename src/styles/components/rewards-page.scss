@@ -1,0 +1,22 @@
+.rewards-wrapper {
+  padding-top: 100px;
+  .inventory-page-container {
+    width: 20%;
+    padding: 10px ;
+    color: white;
+
+    .key-image {
+      background-size: 100%;
+      background-position: center;
+      width: 32px;
+      border-radius: 3px;
+      border: 1px solid white;
+      height: 32px;
+      margin-right: 10px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.item-details-card {
+  background: #eff8ff;
+  max-width: 330px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  margin: 0 !important;
+
+  * {
+    font-weight: bold !important;
+  }
+
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2d5ea2;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  }
+
+  .tier-font {
+    font-size: 20px;
+    color: #3980da;
+  }
+
+  .item-details-image {
+    width: 160px;
+    border: 2px solid #2d5ea2;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: auto;
+    z-index: 20;
+  }
+
+  .description-title {
+    color: rgba(45, 94, 162, 0.62);
+  }
+
+  .description-detail {
+    color: rgba(45, 94, 162, 0.62);
+    min-height: 200px;
+  }
+
+  .item-details-description {
+    color: rgba(45, 94, 162, 0.62);
+
+    .tier-img {
+      width: 50px;
+      height: auto;
+    }
+
+    .item-description {
+      min-height: 80px;
+      max-height: 200px;
+      text-shadow: none;
+      line-height: 1.25em;
+      text-shadow: none;
+    }
+
+    .item-effect {
+      min-height: 40px;
+    }
+
+    .item-reward-missions {
+      max-height: 200px;
+      overflow-y: auto;
+
+      .item-reward-mission {
+        margin: 0.25rem 0;
+
+        .item-go-now-button {
+          background: linear-gradient(180deg, #05b336 0%, #02631f 100%);
+          border: 1px solid #04a833;
+          color: white;
+          border-radius: 5px;
+          white-space: nowrap;
+
+          img {
+            width: 20px;
+            height: auto;
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .item-equippers {
+      cursor: pointer;
+
+      .item-equipper {
+        position: relative;
+
+        img {
+          position: absolute;
+          left: 0;
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          z-index: 21;
+        }
+
+        .item-equipper-name {
+          background: #00aafb6b;
+          color: white;
+          z-index: 20;
+          margin-left: 30px;
+          padding: 10px 10px 10px 30px;
+          font-weight: normal !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .item-reward-mission {
+    flex-wrap: wrap;
+  }
+
+  .item-go-now-button {
+    width: 100%;
+  }
+}

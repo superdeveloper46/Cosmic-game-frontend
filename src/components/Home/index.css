@@ -1,0 +1,29 @@
+.main {
+  background-image: url('/public/images/back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.content-wrapper {
+  position: relative;
+  top: 100px;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow: scroll; 
+}
+
+.content-wrapper .leaflet-popup {
+  margin-bottom: 40px;
+}
+
+.content-wrapper::-webkit-scrollbar {
+  display: none; 
+}
+
+.content-wrapper > * {
+  position: absolute;
+  top: 0;
+}

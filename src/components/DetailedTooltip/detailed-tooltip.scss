@@ -1,0 +1,32 @@
+.detail-tooltip {
+  background: #1c3970;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+
+  &-content {
+    h3 {
+      font-size: 22px;
+      margin-bottom: 0;
+    }
+
+    p {
+      max-width: 130px;
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+  }
+
+  &-top {
+    padding: 10px;
+  }
+
+  &-bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #011a33;
+    padding: 10px;
+    color: #BD8926;
+  }
+}

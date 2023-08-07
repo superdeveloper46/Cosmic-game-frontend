@@ -1,0 +1,15 @@
+export const AUDIOLIST = {
+  CANCEL_BUTTON: '/audios/Main Sounds/CANCEL_BUTTON.mp3',
+  CLAIM_REWARD: '/audios/Main Sounds/CLAIM_REWARD.mp3',
+  CONTINUE_BUTTON: '/audios/Main Sounds/CONTINUE_BUTTON.mp3',
+  DEPOSIT_SFX: '/audios/Main Sounds/DEPOSIT_SFX.mp3',
+  EQUIP_ITEM_SFX: '/audios/Main Sounds/EQUIP_ITEM_SFX.mp3',
+  ERROR_SFX: '/audios/Main Sounds/ERROR_SFX.mp3',
+  EXIT_BACK_BUTTON: '/audios/Main Sounds/EXIT_BACK_BUTTON.mp3',
+  GERNERAL_BUTTON: '/audios/Main Sounds/GENERAL_BUTTON.mp3',
+  MISSION_START_BUTTON: '/audios/Main Sounds/MISSION_START_BUTTON.mp3',
+  INACTIVE_BUTTON: '/audios/Main Sounds/INACTIVE_BUTTON.mp3',
+  SIDEBAR_IN_SFX: '/audios/Main Sounds/SIDEBAR_IN_SFX.mp3',
+  SIDEBAR_OUT_SFX: '/audios/Main Sounds/SIDEBAR_OUT_SFX.mp3',
+  UNEQUIP_ITEM_SFX: '/audios/Main Sounds/UNEQUIP_ITEM_SFX.mp3',
+}

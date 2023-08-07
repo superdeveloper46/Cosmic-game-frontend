@@ -1,0 +1,103 @@
+.new-layout-inventory-item {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+  margin: 3px;
+  border-radius: 5px;
+  background-size: cover;
+
+  &.gray-disable {
+    filter: grayscale(1);
+  }
+
+  &.white-border img.inventory-image {
+    border-color: white;
+  }
+
+  .equip-image {
+    width: 20px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  img {
+    &.inventory-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 5px;
+      border: 1px solid #2d5ea2;
+    }
+    &.tier-image {
+      position: absolute;
+      top: -7px;
+      right: -7px;
+      width: 30px;
+      height: 30px;
+    }
+    &.lock-image {
+      width: 20px;
+      position: absolute;
+      left: 3px;
+      top: 23px;
+    }
+    &.search-image {
+      width: 20px;
+      position: absolute;
+      bottom: 3px;
+      right: 3px;
+    }
+    &.equipper-image {
+      width: 30px;
+      position: absolute;
+      border-radius: 30px;
+      border: 2px solid white;
+      bottom: -5px;
+      left: -5px;
+    }
+    &.check-image {
+      width: 40px;
+      position: absolute;
+      border-radius: 40px;
+      border: 0;
+      top: 20px;
+      left: 20px;
+    }
+  }
+}
+
+.mission-image {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 3px;
+  left: 3px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.tooltip-text {
+  width: fit-content;
+  white-space: nowrap;
+  background: #1c3970;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+}

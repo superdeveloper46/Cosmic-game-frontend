@@ -1,0 +1,62 @@
+.inventory-slot {
+  border: 0px solid #1963AE;
+  background-color: #00000000;
+  background-image: url('/public/images/inventory-slot-active.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  aspect-ratio: 1;
+}
+
+.inventory-slot.inactive {
+  background-image: url('/public/images/inventory-slot-inactive.png');
+}
+
+.inventory-slot .inventory-slot-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/images/inventory-slot-active-overlay.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.inventory-slot.inactive .inventory-slot-overlay {
+  background-image: url('/public/images/inventory-slot-inactive-overlay.png');
+}
+
+.inventory-slot.clickable {
+  cursor: pointer;
+}
+
+.inventory-slot.clickable:hover {
+  opacity: 0.8;
+}
+
+.character-list > .character-inventory-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/public/images/character_ape_bg.png');
+  padding: 2px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.character-list > div {
+  position: relative;
+}
+
+.character-list > div .crown {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+}
+
+.character-list > div img {
+  border-radius: 11px;
+}

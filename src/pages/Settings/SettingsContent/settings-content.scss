@@ -1,0 +1,10 @@
+.settings-content {
+  &-container {
+    width: 100%;
+    background: #132849;
+    padding: 20px;
+    padding-top: 0;
+    overflow: auto;
+    min-height: 100vh;
+  }
+}

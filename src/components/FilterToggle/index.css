@@ -1,0 +1,11 @@
+.filter-toggle {
+  border: 3px solid #0d4b88;
+  background: #0096FF;
+  border-radius: 50%;
+}
+
+.filter-toggle.inactive {
+  border-width: 0px;
+  background: #0096FF;
+  opacity: 0.3;
+}

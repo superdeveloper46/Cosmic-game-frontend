@@ -1,0 +1,27 @@
+.item-slot {
+  border: 0px solid #1963AE;
+  background-color: #00000000;
+  background-image: url('/public/images/slot-active.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.item-slot.inactive {
+  background-image: url('/public/images/slot-inactive.png');
+}
+
+.item-slot .item-slot-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/images/slot-active-overlay.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.item-slot.inactive .item-slot-overlay {
+  background-image: url('/public/images/slot-inactive-overlay.png');
+}

@@ -1,0 +1,19 @@
+.go-btn {
+  background: url('../../assets/images/green_btn_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  img {
+    width: 15px;
+    height: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+}

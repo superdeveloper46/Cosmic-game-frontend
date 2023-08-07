@@ -1,0 +1,44 @@
+.settings-page-left-sidebar {
+  background: #1c3970;
+  min-height: 100vh;
+  width: 365px;
+  flex-shrink: 0;
+
+  @media (max-width: 1320px) {
+    width: 300px;
+  }
+
+  h3 {
+    font-family: "ocean-drift";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    line-height: 100px;
+    color: #ffffff;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    padding-left: 25%;
+    cursor: pointer;
+
+    h4 {
+      font-family: "roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 45px;
+      display: flex;
+      margin-bottom: 0;
+      align-items: center;
+      color: #ffffff;;
+    }
+
+    &.active {
+      background: #00B1FB;
+    }
+  }
+}

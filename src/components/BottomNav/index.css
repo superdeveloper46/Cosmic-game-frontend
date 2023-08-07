@@ -1,0 +1,49 @@
+.bottom-nav {
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  z-index: 999;
+}
+
+.bottom-nav .footer-bar {
+  background-image: url('/public/images/footer-banner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40px;
+  background-position: top;
+  position: relative;
+}
+
+.footer-bar > * {
+  position: relative;
+  bottom: 135px;
+}
+
+.ape-menu-button {
+  background-image: url('/public/images/CAC_white.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+}
+
+.target-menu-button {
+  background-image: url('/public/images/target.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 45px;
+}
+
+.menu-menu-button {
+  background-image: url('/public/images/ICON_Menu.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 48px;
+  height: 36px;
+}

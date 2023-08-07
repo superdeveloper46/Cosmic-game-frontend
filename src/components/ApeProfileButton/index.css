@@ -1,0 +1,30 @@
+.ape-profile-button {
+  color: #FFFFFF;
+  border: 0px !important;
+  border-radius: 0px;
+  padding: 0;
+  flex: 1;
+  background-color: rgba(91, 108, 153, 0)!important;
+  position: relative;
+  min-width: 75px;
+}
+
+.ape-profile-button:hover {
+  background-color: #00b0fb3f !important;
+}
+
+.ape-profile-button.active {
+  background-color: #00B1FB7A !important;
+}
+
+.ape-profile-button-children-container {
+  padding: 0.5rem 1rem;
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.ape-profile-button-image {
+  margin: 0.25rem 1rem;
+  aspect-ratio: 1;
+}

@@ -1,0 +1,77 @@
+.region {
+  width: 20%;
+  padding: 10px 25px 10px 0px;
+
+  &-wrapper {
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+    width: 100%;
+    padding: 0px 10px 0px 25px;
+
+    & > div {
+      position: relative;
+      width: 100%;
+      opacity: 0.8;
+      cursor: pointer;
+      border: 2px solid #3980DA;
+      height: 95px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      p {
+        position: absolute;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        white-space: nowrap;
+        transition: all 0.2s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      &:hover {
+        opacity: 1;
+        border: 2px solid #BD8926;
+        p {
+          font-size: 26px;
+        }
+      }
+      &.active {
+        opacity: 1;
+        border: 2px solid white;
+        p {
+          font-size: 26px;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+  
+    }
+  }
+}
+
+.tab-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  &.active {
+    background: rgba(0, 177, 251, 0.48);
+  }
+  @media (max-width: 1450px) {
+    font-size: 20px;    
+  }
+}

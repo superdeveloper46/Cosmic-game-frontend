@@ -1,0 +1,107 @@
+.settings-page-container {
+  min-height: calc(100vh - 220px);
+}
+
+.shop-content {
+  &-container {
+    width: 100%;
+    background: #132849;
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 0;
+  }
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & > div:first-child {
+      display: flex;
+      align-items: center;
+
+      h3 {
+        font-family: "ocean-drift";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        text-align: center;
+        line-height: 95px;
+        color: #ffffff;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-left: 60px;
+        color: #bd8926;
+      }
+    }
+
+    & > div:nth-child(2) {
+      background: url("../../../assets/images/currency_bg.png");
+      background-size: 100% 100%;
+      width: 130px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      color: white;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      color: #ffffff;
+      position: relative;
+
+      img {
+        position: absolute;
+        right: 85%;
+        width: 65px;
+        height: 65px;
+      }
+
+      &.salvage-amount {
+        background: url("../../../assets/images/currencyoverlay.png") !important;
+        margin-right: 50px;
+        padding-left: auto;
+        padding-right: 20px;
+        text-align: right;
+        background-size: 100% 100%;
+        justify-content: end;
+        
+        img {
+          position: absolute;
+          left: 85%;
+          width: 65px;
+          height: 65px;
+        }
+      }
+    }
+  }
+
+  &-cards {
+    &-container {
+      height: calc(100vh - 345px);
+      overflow-y: auto;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(6, 1fr);
+      @media (max-width: 1780px) {
+        grid-template-columns: repeat(5, 1fr);
+      }
+      @media (max-width: 1485px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      @media (max-width: 1320px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}

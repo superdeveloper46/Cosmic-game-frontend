@@ -1,0 +1,35 @@
+.apply-button {
+  border-width: 0px;
+  background-color: #00000000!important;
+  background-image: url('/public/images/apply-button.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.apply-button.inactive {
+  cursor: no-drop!important;
+  opacity: 0.5;
+}
+
+.apply-button.inactive:hover {
+  opacity: 0.5;
+}
+
+.apply-button.danger {
+  background-image: url('/public/images/apply-button-danger.png');
+}
+
+.apply-button.gradient {
+  background-image: url('/public/images/gradient_btn.png');
+}
+
+.organise-apply {
+  font-size: 22px;
+  color: #33B04E;
+}
+
+.organise-apply:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+.menu-box-container {
+  position: absolute;
+  width: 520px;
+  right: 0;
+  top: 100px;
+
+  z-index: 48;
+  padding: 1rem;
+  border-left: 1px solid #00B1FB;
+  border-bottom: 1px solid #00B1FB;
+  background: linear-gradient(0deg, #16305F 0%, #0B1A39 100%);
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+
+  .settings-button {
+    border: 0 !important;
+    background: none !important;
+    width: 60px;
+    height: 60px;
+  }
+}

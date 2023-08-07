@@ -1,0 +1,8 @@
+.divider {
+  border: 0px solid #1963AE;
+  background-color: #00000000;
+  background-image: url('/public/images/verticalBoder.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

@@ -1,0 +1,13 @@
+.ape-info-container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* width: 420px; */
+  height: 100px;
+  margin-top: 5px;
+  margin-left: -10px;
+  padding: 30px 30px;
+  padding-right: 0px;
+  font-size: 16px;
+  justify-content: space-between;
+}
